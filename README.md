@@ -1,5 +1,5 @@
 # Задание №2
-
+```
 CREATE TABLE CATEGORIES (
 Id INT NOT NULL,
  Name TEXT NOT NULL,
@@ -56,3 +56,4 @@ FROM tempProductAndCategories LEFT JOIN CATEGORIES
 ON tempProductAndCategories.CategoryId = CATEGORIES.Id;
 
 DROP TABLE tempProductAndCategories;
+```
